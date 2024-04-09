@@ -1,6 +1,6 @@
 .loader {
     margin-top: 10%; /* Adjusted for responsiveness */
-    margin-left: 45%; /* Adjusted for responsiveness */
+    margin-left: 44%; /* Adjusted for responsiveness */
     transform: translate(-50%, -50%); /* Center horizontally and vertically */
     background-color: rgb(244, 241, 241);
     height: 10vw; /* Adjusted for responsiveness */
@@ -8,16 +8,16 @@
     max-width: 100px; /* Set maximum width */
     max-height: 100px; /* Set maximum height */
     border-radius: 50%;
-    border: 2vw solid #ffb7d5; /* Adjusted for responsiveness */
-    border-top: 2vw solid #31b700; /* Adjusted for responsiveness */
+    border: 2vw solid #B3C8CF; /* Adjusted for responsiveness */
+    border-top: 2vw solid #FB6D48; /* Adjusted for responsiveness */
     animation: spinAnimate 1s ease-in-out 0s infinite; /* Adjusted for smoother animation */
 }
 
 body {
     background-color: black;
-    background-image: url('img/giphy.gif');
+    background-image: url('img/gif12.gif');
     background-repeat: no-repeat;
-    background-position: center calc(100% - -15%);
+    background-position: center calc(100% - 40%);
     background-attachment: fixed;
 }
 
