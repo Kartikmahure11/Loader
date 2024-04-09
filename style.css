@@ -1,0 +1,41 @@
+.loader{
+    
+    margin-top: 250px;
+    margin-left: 600px;
+    background-color: rgb(244, 241, 241);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 10px solid #ffb7d5;
+    border-top: 10px solid #31b700;
+    animation: spinAnimate 1s ease-in 2s infinite normal ;
+
+}
+
+.img
+{
+    
+}
+
+body {
+    background-color: black;
+    background-image: url('img/giphy.gif');
+    background-repeat: no-repeat;
+    background-position: center calc(100% - -15%);  
+    background-attachment: fixed;  
+}
+
+
+
+
+@keyframes spinAnimate
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
